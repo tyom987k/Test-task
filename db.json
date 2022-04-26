@@ -1,0 +1,46 @@
+{
+  "access": [
+    {
+      "id": "testaccount@gmail.com",
+      "password": "11111"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "fullName": "Artyom",
+      "email": "a.digitalmsk@gmail.com",
+      "phone": "+79268472047"
+    },
+    {
+      "id": "2",
+      "fullName": "Alexander",
+      "email": "alexanderbackend@gmail.com",
+      "phone": "+79268472044"
+    },
+    {
+      "id": "3",
+      "fullName": "Oleg",
+      "email": "ogelsecurity@gmail.com",
+      "phone": "+79268472045"
+    },
+    {
+      "id": "4",
+      "fullName": "Maria",
+      "email": "mariamanager@gmail.com",
+      "phone": "+79268472046"
+    },
+    {
+      "id": "5",
+      "fullName": "Anastasia",
+      "email": "nasty.smm@gmail.com",
+      "phone": "+79268472043"
+    },
+    {
+      "id": "6",
+      "fullName": "Victor",
+      "email": "mynameissenjor@gmail.com",
+      "phone": "+79268472042"
+    }
+  ]
+}

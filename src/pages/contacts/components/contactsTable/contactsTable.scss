@@ -1,0 +1,24 @@
+.contacts-table__header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 20px 30px;
+}
+
+.contacts-table__search {
+    height: 30px;
+    width: 290px;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.contacts-table__btn {
+    padding: 0 15px;
+    color: white;
+    background-color: rgb(3, 187, 3);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contacts-table__btn:hover {
+    background-color: rgb(2, 146, 2);
+}

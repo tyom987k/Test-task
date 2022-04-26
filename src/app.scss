@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: cadetblue;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: Roboto, Arial;
+
+    &_container {
+        max-width: 2000px;
+        background-color: rgb(236, 175, 152);
+        margin: 0 auto;
+        padding: 10px 15px 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    width: 15%;
+    background-color: yellow;
+    @media (max-width: 660px) {
+        flex: 0 0 100%;
+    }
+}
+
+.App-body {
+    width: calc(85% - 30px);
+    background-color: rgb(82, 82, 42);
+    @media (max-width: 660px) {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+    padding: 15px 15px;
+    min-height: calc(100vh - 110px);
+}

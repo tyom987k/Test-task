@@ -1,0 +1,13 @@
+.App-nav {
+    text-decoration: none;
+}
+
+.App-nav__container {
+    padding: 20px 15px;
+    border-bottom: 1px solid silver;
+}
+
+.App-nav__container:hover {
+    cursor: pointer;
+    background-color: rgb(179, 179, 39);
+}
